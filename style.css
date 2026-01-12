@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color:rgb(4, 2, 31);                
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: #12b2f1;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(4, 2, 31);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: #12b2f1;
+  padding: 48px 0;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: rgb(4, 2, 31);
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.funkciok, main {
+  padding: 32px 0;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  background: #12b2f1;
+  padding: 16px;
+  flex: 1 1 250px;
+  border-radius: 4px;
+}
+
+.lablec {
+  background: #12b2f1;
+  text-align: center;
+  padding: 16px 0;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 8px;
+  color: rgb(4, 2, 31);
+}
+
+.pricing-grid .card {
+  text-align: center;
+}
+
+.product-grid {
+  align-items: stretch;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-type {
+  font-weight: bold;
+  color: white;
+}
+
+.product-tagline {
+  font-style: italic;
+  margin-bottom: 8px;
+  color: rgb(4, 2, 31);
+}
+
+.feature-list {
+  margin-top: 8px;
+  padding-left: 1.32px;
+}
+
+.feature-list li {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+h1{
+    color: #12b2f1;
+}
+
+h2{
+    color: rgb(4, 2, 31);
+}
+
+h3{
+    color: rgb(4, 2, 31)
+}
+
+.first{
+    color: rgb(4, 2, 31);
+}
+
+.team-members{
+    color: rgb(4, 2, 31);
+}
